@@ -47,7 +47,7 @@ class MovieViewHolder(inflater: LayoutInflater, parent: ViewGroup):
         if (movie.poster != null) {
             poster = assetDrawable(posterView.context, "posters/" + movie.poster)
         }
-        
+
         if (poster != null) {
             posterView.setImageDrawable(poster)
         } else {
