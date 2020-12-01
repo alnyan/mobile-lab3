@@ -1,4 +1,4 @@
-package ua.kpi.comsys.iv7114.mobilelab3
+package ua.kpi.comsys.iv7114.mobilelab4
 
 import org.junit.Test
 

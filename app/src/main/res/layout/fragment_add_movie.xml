@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.movies.AddMovieFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/movie_add_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/movie_add_imdb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IMBD ID" />
+
+    <EditText
+        android:id="@+id/movie_add_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year" />
+
+    <Button
+        android:id="@+id/movie_add_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add" />
+</LinearLayout>

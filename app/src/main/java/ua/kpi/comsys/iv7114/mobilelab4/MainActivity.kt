@@ -1,4 +1,4 @@
-package ua.kpi.comsys.iv7114.mobilelab3
+package ua.kpi.comsys.iv7114.mobilelab4
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView

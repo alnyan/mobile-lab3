@@ -7,8 +7,39 @@
 
     <fragment
         android:id="@+id/navigation_movies"
-        android:name="ua.kpi.comsys.iv7114.mobilelab3.ui.movies.MoviesFragment"
+        android:name="ua.kpi.comsys.iv7114.mobilelab4.ui.movies.MoviesFragment"
         android:label="@string/title_movies"
-        tools:layout="@layout/fragment_movies" />
+        tools:layout="@layout/fragment_movies" >
+        <action
+            android:id="@+id/action_navigation_movies_to_navigation_movie_details"
+            app:destination="@id/navigation_movie_details" />
+        <action
+            android:id="@+id/action_navigation_movies_to_navigation_movie_add"
+            app:destination="@id/navigation_movie_add" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_movie_details"
+        android:name="ua.kpi.comsys.iv7114.mobilelab4.ui.movies.MovieDetailsFragment"
+        android:label="Movie Details"
+        tools:layout="@layout/fragment_movie_details">
+        <argument android:name="movie_id" android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_navigation_movie_details_pop"
+            app:popUpTo="@id/navigation_movies"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_movie_add"
+        android:name="ua.kpi.comsys.iv7114.mobilelab4.ui.movies.AddMovieFragment"
+        android:label="Add Movie"
+        tools:layout="@layout/fragment_add_movie">
+        <action
+            android:id="@+id/action_navigation_movie_add_pop"
+            app:popUpTo="@id/navigation_movies"
+            app:popUpToInclusive="true" />
+    </fragment>
 
 </navigation>

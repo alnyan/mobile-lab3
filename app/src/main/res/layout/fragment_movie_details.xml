@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.movies.MovieDetailsFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/movie_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        <ImageView
+            android:id="@+id/movie_detail_poster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_movie_24" />
+        <TextView
+            android:id="@+id/movie_detail_released"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Release: 20 Dec 2016 (2016)"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <TextView
+            android:id="@+id/movie_detail_esrb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESRB: PG"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        <TextView
+            android:id="@+id/movie_detail_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genre: ..." />
+        <TextView
+            android:id="@+id/movie_detail_runtime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Run time: ..." />
+        <TextView
+            android:id="@+id/movie_detail_written"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Written by: ..." />
+        <TextView
+            android:id="@+id/movie_detail_directed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Directed by: ..." />
+        <TextView
+            android:id="@+id/movie_detail_produced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Produced by: ..." />
+        <TextView
+            android:id="@+id/movie_detail_actors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Starring: ..." />
+        <TextView
+            android:id="@+id/movie_detail_plot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plot:\n..." />
+    </LinearLayout>
+</ScrollView>
