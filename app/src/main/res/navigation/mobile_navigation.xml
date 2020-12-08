@@ -19,6 +19,13 @@
     </fragment>
 
     <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="ua.kpi.comsys.iv7114.mobilelab4.ui.movies.GalleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery" >
+    </fragment>
+
+    <fragment
         android:id="@+id/navigation_movie_details"
         android:name="ua.kpi.comsys.iv7114.mobilelab4.ui.movies.MovieDetailsFragment"
         android:label="Movie Details"
